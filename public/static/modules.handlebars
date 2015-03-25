@@ -1,0 +1,25 @@
+
+{{#category}}
+<h2 id="index-{{name}}">
+    <span class="catigory">jzu-{{name}}</span>
+</h2>
+
+<div class="modules">
+    {{#modules}}
+    <div class="module">
+        <span class="module-name">{{name}}</span>
+        <span class="module-description">{{description}}</span>
+
+        <select class="module-version">
+            {{#versions}}
+            <option>{{version}}</option>
+            {{/versions}}
+        </select>
+
+        <span class="module-home">
+            <a href="#">module-home</a>
+        </span>
+    </div>
+    {{/modules}}
+</div>
+{{/category}}

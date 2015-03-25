@@ -1,0 +1,410 @@
+{
+  "data": {
+    "total": 27,
+    "results": [
+      {
+        "name": "arale-graphic",
+        "version": "1.0.0",
+        "versions": [
+          "1.0.0"
+        ],
+        "description": "",
+        "keywords": [],
+        "homepage": "https://github.com/fangk/arale-graphic",
+        "repository": "git://github.com/fangk/arale-graphic.git",
+        "created_at": "2014-06-14T07:45:39+00:00"
+      },
+      {
+        "name": "arale-calendar",
+        "version": "1.1.2",
+        "versions": [
+          "1.1.2",
+          "1.1.1",
+          "1.1.0"
+        ],
+        "description": "Calendar widget.",
+        "keywords": [
+          "widget",
+          "month",
+          "datepicker"
+        ],
+        "homepage": "http://aralejs.org/calendar/",
+        "repository": "https://github.com/aralejs/calendar.git",
+        "created_at": "2015-01-17T02:32:02+00:00"
+      },
+      {
+        "name": "arale-dnd",
+        "version": "1.1.0",
+        "versions": [
+          "1.1.0"
+        ],
+        "description": "drag and drop",
+        "keywords": [
+          "utility"
+        ],
+        "homepage": "https://github.com/aralejs/dnd",
+        "repository": "https://github.com/aralejs/dnd.git",
+        "created_at": "2014-05-15T10:08:17+00:00"
+      },
+      {
+        "name": "arale-qrcode",
+        "version": "1.1.0",
+        "versions": [
+          "1.1.0"
+        ],
+        "description": "二维码绘制模块",
+        "keywords": [
+          "utility",
+          "qrcode",
+          "二维码"
+        ],
+        "homepage": "http://aralejs.org/qrcode/",
+        "repository": "https://github.com/aralejs/qrcode/",
+        "created_at": "2014-05-15T10:51:21+00:00"
+      },
+      {
+        "name": "arale-validator",
+        "version": "0.10.1",
+        "versions": [
+          "0.10.1",
+          "0.10.0"
+        ],
+        "description": "最合适的表单校验组件。",
+        "keywords": [
+          "widget"
+        ],
+        "repository": "https://github.com/aralejs/validator",
+        "created_at": "2014-10-21T13:19:59+00:00"
+      },
+      {
+        "name": "arale-autocomplete",
+        "version": "1.4.1",
+        "versions": [
+          "1.4.1",
+          "1.4.0",
+          "1.2.6"
+        ],
+        "description": "自动补全组件",
+        "keywords": [
+          "widget"
+        ],
+        "homepage": "http://aralejs.org/autocomplete/",
+        "repository": "https://github.com/aralejs/autocomplete.git",
+        "created_at": "2014-09-03T13:09:38+00:00"
+      },
+      {
+        "name": "arale-class",
+        "version": "1.2.0",
+        "versions": [
+          "1.2.0"
+        ],
+        "description": "提供简洁的 OO 实现。",
+        "keywords": [
+          "infrastructure"
+        ],
+        "homepage": "http://aralejs.org/class/",
+        "repository": "https://github.com/aralejs/class.git",
+        "created_at": "2014-05-15T09:19:00+00:00"
+      },
+      {
+        "name": "arale-cookie",
+        "version": "1.1.0",
+        "versions": [
+          "1.1.0"
+        ],
+        "description": "提供 Cookie 操作方法。",
+        "keywords": [
+          "utility"
+        ],
+        "homepage": "http://aralejs.org/cookie/",
+        "repository": "https://github.com/aralejs/cookie",
+        "created_at": "2014-05-15T09:41:35+00:00"
+      },
+      {
+        "name": "arale-popup",
+        "version": "1.2.0",
+        "versions": [
+          "1.2.0"
+        ],
+        "description": "Popup 是可触发的浮层组件。",
+        "keywords": [
+          "widget"
+        ],
+        "homepage": "http://aralejs.org/popup/",
+        "repository": "https://github.com/aralejs/popup.git",
+        "created_at": "2014-05-17T13:26:39+00:00"
+      },
+      {
+        "name": "arale-select",
+        "version": "0.10.0",
+        "versions": [
+          "0.10.0"
+        ],
+        "description": "模拟 select 的组件",
+        "keywords": [
+          "widget"
+        ],
+        "homepage": "http://aralejs.org/select",
+        "repository": "https://github.com/aralejs/select.git",
+        "created_at": "2014-06-25T08:33:23+00:00"
+      },
+      {
+        "name": "arale-sticky",
+        "version": "1.4.0",
+        "versions": [
+          "1.4.0"
+        ],
+        "description": "实现元素跟随滚动的效果。",
+        "keywords": [
+          "utility"
+        ],
+        "homepage": "http://aralejs.org/sticky/",
+        "repository": "https://github.com/aralejs/sticky",
+        "created_at": "2014-05-15T10:54:39+00:00"
+      },
+      {
+        "name": "arale-upload",
+        "version": "1.2.0",
+        "versions": [
+          "1.2.0"
+        ],
+        "description": "html5 uploader and iframe uploader.",
+        "keywords": [
+          "utility",
+          "upload",
+          "ajax upload",
+          "iframe upload"
+        ],
+        "homepage": "http://aralejs.org/upload/",
+        "repository": "https://github.com/aralejs/upload",
+        "created_at": "2014-07-09T06:14:14+00:00"
+      },
+      {
+        "name": "zlvalidator",
+        "version": "1.0.1",
+        "versions": [
+          "1.0.1"
+        ],
+        "description": "A validator widget extends arale/validator",
+        "keywords": [],
+        "homepage": "",
+        "repository": "secret",
+        "created_at": "2014-11-20T05:57:14+00:00"
+      },
+      {
+        "name": "arale-base",
+        "version": "1.2.0",
+        "versions": [
+          "1.2.0"
+        ],
+        "description": "Base 是一个基础类，提供 Class、Events、Attribute 和 Aspect 支持。",
+        "keywords": [
+          "infrastructure"
+        ],
+        "homepage": "http://aralejs.org/base",
+        "repository": "https://github.com/aralejs/base.git",
+        "created_at": "2014-05-15T09:40:14+00:00"
+      },
+      {
+        "name": "arale-messenger",
+        "version": "2.1.0",
+        "versions": [
+          "2.1.0"
+        ],
+        "description": "跨域 Iframe 通信解决方案，兼容 IE 系列浏览器。",
+        "keywords": [
+          "utility",
+          "message",
+          "communicate"
+        ],
+        "homepage": "http://aralejs.org/messenger/",
+        "repository": "https://github.com/aralejs/messenger/",
+        "created_at": "2014-05-15T10:34:24+00:00"
+      },
+      {
+        "name": "arale-events",
+        "version": "1.2.0",
+        "versions": [
+          "1.2.0"
+        ],
+        "description": "提供基本的事件添加、移除和触发功能。",
+        "keywords": [
+          "infrastructure"
+        ],
+        "homepage": "http://aralejs.org/events/",
+        "repository": "https://github.com/aralejs/events.git",
+        "created_at": "2014-06-25T02:09:46+00:00"
+      },
+      {
+        "name": "arale-overlay",
+        "version": "1.2.0",
+        "versions": [
+          "1.2.0"
+        ],
+        "description": "基础浮层组件，提供浮层显示隐藏、定位和 select 遮挡等特性。",
+        "keywords": [
+          "widget"
+        ],
+        "homepage": "http://aralejs.org/overlay/",
+        "repository": "https://github.com/aralejs/overlay",
+        "created_at": "2014-08-13T07:46:20+00:00"
+      },
+      {
+        "name": "arale-templatable",
+        "version": "0.10.0",
+        "versions": [
+          "0.10.0"
+        ],
+        "description": "处理组件的模板渲染，混入到 Widget 中使用。",
+        "keywords": [
+          "utility",
+          "widget"
+        ],
+        "homepage": "http://aralejs.org/templatable/",
+        "repository": "http://github.com/aralejs/templatable.git",
+        "created_at": "2014-05-16T05:57:05+00:00"
+      },
+      {
+        "name": "anima-validator",
+        "version": "1.0.2",
+        "versions": [
+          "1.0.2",
+          "1.0.1"
+        ],
+        "description": "validator from arale with yocto(zepto) replacing jquery",
+        "keywords": [],
+        "homepage": "http://gitlab.alibaba-inc.com/animajs/validator",
+        "repository": "http://gitlab.alibaba-inc.com/animajs/validator.git",
+        "created_at": "2014-07-24T02:38:47+00:00"
+      },
+      {
+        "name": "arale-tip",
+        "version": "1.3.0",
+        "versions": [
+          "1.3.0"
+        ],
+        "description": "提示框组件，专注于带箭头的气泡框显示、隐藏、动画等交互功能。",
+        "keywords": [
+          "widget",
+          "bubble",
+          "popup"
+        ],
+        "homepage": "http://aralejs.org/tip",
+        "repository": "https://github.com/aralejs/tip",
+        "created_at": "2014-07-02T04:32:42+00:00"
+      },
+      {
+        "name": "byg-popup",
+        "version": "1.0.0",
+        "versions": [
+          "1.0.0"
+        ],
+        "description": "弹层模块，直接继承arale的widget模块。",
+        "keywords": [],
+        "homepage": "",
+        "repository": "git://github.com/tanzhihang/byg-popup.git",
+        "created_at": "2014-08-16T01:45:04+00:00"
+      },
+      {
+        "name": "arale-iframe-shim",
+        "version": "1.1.0",
+        "versions": [
+          "1.1.0"
+        ],
+        "description": "工具类，在 IE6 下生成 iframe 遮挡 select 和 object。此组件对开发者透明，开发者无需再判断浏览器版本。",
+        "keywords": [
+          "utility",
+          "ie6",
+          "shim",
+          "dom"
+        ],
+        "homepage": "http://aralejs.org/iframe-shim/",
+        "repository": "https://github.com/aralejs/iframe-shim.git",
+        "created_at": "2014-08-13T08:46:43+00:00"
+      },
+      {
+        "name": "arale-easing",
+        "version": "1.1.0",
+        "versions": [
+          "1.1.0"
+        ],
+        "description": "Easing 是动画的平滑函数扩展包。由于 jQuery 自带的比较少，通过这个包可以增加更多平滑函数。",
+        "keywords": [
+          "utility"
+        ],
+        "homepage": "http://aralejs.org/easing/",
+        "repository": "https://github.com/aralejs/easing.git",
+        "created_at": "2014-05-15T10:08:09+00:00"
+      },
+      {
+        "name": "arale-widget",
+        "version": "1.2.0",
+        "versions": [
+          "1.2.0"
+        ],
+        "description": "Widget 是 UI 组件的基础类，约定了组件的基本生命周期，实现了一些通用功能。基于 Widget 可以构建出任何你想要的 Web 界面组件。",
+        "keywords": [
+          "infrastructure",
+          "ui"
+        ],
+        "homepage": "http://aralejs.org/widget/",
+        "repository": "https://github.com/aralejs/widget.git",
+        "created_at": "2014-06-24T05:58:58+00:00"
+      },
+      {
+        "name": "arale-dialog",
+        "version": "1.5.0",
+        "versions": [
+          "1.5.0",
+          "1.4.1",
+          "1.4.0"
+        ],
+        "description": "Dialog 是通用对话框容器，提供显隐关闭、遮罩层、内嵌iframe、内容区域自定义以及模态对话框等功能。",
+        "keywords": [
+          "widget",
+          "modal",
+          "overlay",
+          "confirmbox",
+          "alert"
+        ],
+        "homepage": "http://aralejs.org/dialog",
+        "repository": "git@github.com:aralejs/dialog.git",
+        "created_at": "2015-01-24T07:27:51+00:00"
+      },
+      {
+        "name": "position",
+        "version": "1.1.0",
+        "versions": [
+          "1.1.0"
+        ],
+        "description": "简单实用的定位工具，将一个 DOM 节点相对于另一个 DOM 节点进行定位操作。",
+        "keywords": [
+          "utility",
+          "arale"
+        ],
+        "homepage": "http://aralejs.org/position/",
+        "repository": "https://github.com/aralejs/position.git",
+        "created_at": "2014-12-16T08:57:20+00:00"
+      },
+      {
+        "name": "arale-switchable",
+        "version": "1.1.1",
+        "versions": [
+          "1.1.1",
+          "1.1.0"
+        ],
+        "description": "Switchable提供了切换的基本操作, 并通过参数配置实现了自动播放, 循环, 切换等操作, 并提供不同的特点封装成了Tabs, Slide, Carousel, Accordion模块. 用户可以根据自己的需求引用不同的模块.",
+        "keywords": [
+          "widget",
+          "tab",
+          "slide",
+          "carousel",
+          "accordion"
+        ],
+        "homepage": "http://aralejs.org/switchable",
+        "repository": "https://github.com/aralejs/switchable.git",
+        "created_at": "2015-01-05T03:03:08+00:00"
+      }
+    ]
+  }
+}

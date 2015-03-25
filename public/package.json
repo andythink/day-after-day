@@ -1,0 +1,27 @@
+{
+  "name": "epay.module.com",
+  "title": "epay",
+  "version": "0.4.0",
+  "description": "首页",
+  "homepage": "http://aralejs.org",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "spm": {
+    "dependencies": {
+      "arale-popup": "1.2.0",
+      "arale-autocomplete": "1.4.1",
+      "arale-sticky": "1.4.0",
+      "keymaster": "1.6.2",
+      "moment": "2.8.1",
+      "word-color": "1.1.0",
+      "jquery": "1.7.2",
+      "handlebars": "1.3.0",
+      "handlebars-runtime": "1.3.0"
+    }
+  }
+}

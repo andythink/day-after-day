@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<html lang="{{theme.lang}}">
+<head>
+    <meta charset="UTF-8">
+    {%- if post.filename == 'index' %}
+    <title>{{config.package.description}}</title>
+    {%- else %}
+    <title>{{config.package.title|title}} - {{post.title}}</title>
+    {%- endif %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="{{system.name}} {{system.version}}"/>
+    {%- block assets %}
+    <link type="image/x-icon" href="{{static_url('favicon.ico')}}" rel="icon">
+    <link rel="stylesheet" href="{{static_url('css/normalize.css')}}"/>
+    <link rel="stylesheet" href="{{static_url('css/site.css')}}"/>
+    <link rel="stylesheet" href="{{static_url('css/solarized.css')}}"/>
+    <link rel="stylesheet" href="{{static_url('style.css')}}"/>
+
+    <style>
+        /* alipay iconfont */
+        @font-face {
+            font-family: "rei";
+            src: url("{{static_url("fonts/rei.eot?20130423")}}"); /* IE9 */
+            src: url("{{static_url("fonts/rei.eot?20130423#iefix")}}") format("embedded-opentype"), /* IE6-IE8 */ url("{{static_url("fonts/rei.woff?20130423")}}") format("woff"), /* chrome 6+、firefox 3.6+、Safari5.1+、Opera 11+ */ url("{{static_url("fonts/rei.ttf?20130423")}}") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */ url("{{static_url("fonts/rei.svg?20130423#rei")}}") format("svg"); /* iOS 4.1- */
+        }
+
+        .iconfont {
+            font-family: "rei" !important;
+            font-style: normal;
+            font-weight: normal;
+            cursor: default;
+            -webkit-font-smoothing: antialiased;
+        }
+    </style>
+
+    {%- set pkg = config.package %}
+    {%- set deps = dependencies %}
+
+    {%- if deps.seajs %}
+    <script src="{{content_url('')}}spm_modules/{{deps.seajs}}?nowrap"></script>
+    {%- else %}
+    <script src="{{static_url('js/sea.js?nowrap')}}"></script>
+    {%- endif %}
+
+    <script>
+        seajs.config({
+            base: "/",
+            alias: {
+                "jquery": "jquery/1.7.2/jquery",
+                "arale-sticky": "arale-sticky/1.4.0/index",
+                "word-color": "word-color/1.1.0/index",
+                "arale-autocomplete": "arale-autocomplete/1.4.1/autocomplete",
+                "keymaster": "keymaster/1.6.2/keymaster",
+                "moment": "moment/2.8.1/moment"
+            }
+        })
+    </script>
+
+    <!--<script type="text/javascript" src="/static/handlebars-v1.3.0.js"></script>-->
+
+    <!--<script src="{{static_url('index.js?nowrap')}}"></script>-->
+
+    {%- endblock %}
+    {%- block afterstyle %}{% endblock %}
+
+    {%- if post.filename != 'index' %}
+    <script>
+        seajs.use(['arale-sticky', '/static/side.js?nowrap'], function (Sticky, side) {
+            Sticky('.side-area', 20);
+            side.init();
+        });
+    </script>
+    {%- endif -%}
+    <style type="text/css">
+        .nav-area {
+            border-top: 0;
+            text-shadow: none;
+            height: 40px;
+        }
+        .main-nav {
+            margin-top: 7px;
+        }
+        .main-nav li {
+            font-weight: normal;
+        }
+        .main-nav li a {
+            color: #00b8df;
+        }
+        .main-nav li a:hover {
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+            background-color: #00b8df;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body class="spmjs">
+<div id="body-wrapper">
+    <div class="nav-area">
+        <ol class="main-nav">
+            <li><a href="/"><i class="iconfont" title="首页">&#xF034;</i>&nbsp;&nbsp;day after day</a></li>
+
+        </ol>
+    </div>
+    <div class="main-area">
+        {%- if post.filename == 'index' %}
+        <style type="text/css">
+            .side-area {
+                width: 100%;
+            }
+            .side-area ul li {
+                float: left;
+            }
+            .side-area a {
+                border-right: 0 !important;
+                padding: 8px 16.6px;
+            }
+            .side-area  li:last-of-type a {
+                border-right: 1px solid #ddd !important;
+                padding-right: 18.1px;
+            }
+        </style>
+        <div class="side-area">
+            <ul>
+                <li><a href="#index-A">A</a></li>
+                <li><a href="#index-B">B</a></li>
+                <li><a href="#index-C">C</a></li>
+                <li><a href="#index-D">D</a></li>
+                <li><a href="#index-E">E</a></li>
+                <li><a href="#index-F">F</a></li>
+                <li><a href="#index-G">G</a></li>
+                <li><a href="#index-H">H</a></li>
+                <li><a href="#index-H">I</a></li>
+                <li><a href="#index-J">J</a></li>
+                <li><a href="#index-K">K</a></li>
+                <li><a href="#index-L">L</a></li>
+                <li><a href="#index-M">M</a></li>
+                <li><a href="#index-N">N</a></li>
+                <li><a href="#index-O">O</a></li>
+                <li><a href="#index-P">P</a></li>
+                <li><a href="#index-Q">Q</a></li>
+                <li><a href="#index-R">R</a></li>
+                <li><a href="#index-S">S</a></li>
+                <li><a href="#index-T">T</a></li>
+                <li><a href="#index-U">U</a></li>
+                <li><a href="#index-V">V</a></li>
+                <li><a href="#index-W">W</a></li>
+                <li><a href="#index-X">X</a></li>
+                <li><a href="#index-Y">Y</a></li>
+                <li><a href="#index-Z">Z</a></li>
+
+            </ul>
+        </div>
+        {%- else %}
+        <div class="side-area">{{post.toc}}</div>
+        {%- endif %}
+        <script type="text/template" id="list-template">
+            <li><a href="#"><i class="iconfont" title="单箭头右">&#x00E5;</i></a></li>
+        </script>
+        {%- if post.filename == 'index' %}
+        <style type="text/css">
+            #module-wrapper {
+                margin-left: 0;
+                padding-top: 40px;
+            }
+
+        </style>
+        <div class="content-area" id="module-wrapper">
+        </div>
+
+        {%- else %}
+        <div class="content-area">
+            <h1>{{post.title}}</h1>
+
+            <div class="content entry-content">{{post.html | add_anchor}}</div>
+        </div>
+        {%- endif %}
+    </div>
+</div>
+<div id="footer-wrapper">
+    <footer>
+        <p class="powered">
+
+        </p>
+    </footer>
+</div>
+</body>
+</html>
