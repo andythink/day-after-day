@@ -4,11 +4,18 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var serveIndex = require('serve-index')
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
 var app = express();
+
+//访问路径
+var requestPath = '/_site'
+// 访问路径对应的文件目录
+var dirPath = process.cwd() + '\\public\\_site'
+app.use(requestPath, serveIndex(dirPath, {hidden: true, icons: true, view: "details"}))
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -22,7 +29,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', routes);
+// app.use('/', routes);
 app.use('/users', users);
 
 // catch 404 and forward to error handler
